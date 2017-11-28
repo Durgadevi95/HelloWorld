@@ -1,5 +1,4 @@
 language: objective-c
-xcode_version: '9.1'
-os: osx
+osx_image: xcode9.1
 script:
   - xctool -project HelloWorld.xcodeproj -scheme HelloWorld -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
