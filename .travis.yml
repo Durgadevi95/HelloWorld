@@ -1,7 +1,4 @@
 language: objective-c
-osx_image: xcode9.1
-after_install:
-  - brew update
-  - brew upgrade xctool
+osx_image: xcode3.2
 script:
   - xctool -project HelloWorld.xcodeproj -scheme HelloWorld -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
