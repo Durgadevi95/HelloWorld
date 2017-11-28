@@ -2,4 +2,4 @@ language: objective-c
 osx_image: xcode6.4
 xcode_project: HelloWorld.xcodeproj
 xcode_scheme: HelloWorld
-xcode_sdk: macosx10.9 
+xcode_sdk: macosx10.9 ONLY_ACTIVE_ARCH=NO 
