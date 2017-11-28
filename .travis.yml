@@ -1,3 +1,5 @@
 language: objective-c
+osx_image: xcode9
 xcode_project: HelloWorld.xcodeproj
 xcode_scheme: HelloWorld
+xcode_sdk: iphonesimulator8.4
