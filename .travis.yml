@@ -1,6 +1,6 @@
 language: objective-c
 osx_image: xcode9.1
-before_install:
+after_install:
   - brew update
   - brew upgrade xctool
 script:
