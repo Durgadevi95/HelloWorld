@@ -6,7 +6,7 @@ osx_image: xcode6.4 #2
 script:
   xctool
   -project HelloWorld.xcodeproj
-  -scheme HelloWorldTests
+  -scheme HelloWorld
   -sdk iphonesimulator
   -destination 'platform=iOS Simulator,name=iPhone 6 Plus'
   build 
